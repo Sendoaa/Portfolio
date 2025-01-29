@@ -56,7 +56,6 @@ export const iconLibrary: Record<string, IconType> = {
   openLink: HiOutlineLink,
   calendar: HiCalendarDays,
   home: PiHouseDuotone,
-  gallery: PiImageDuotone,
   discord: FaDiscord,
   github: FaGithub,
   linkedin: FaLinkedin,
