@@ -70,7 +70,7 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "mailto:sendoave@gmail.com",
   },
   intro: {
     display: true,
