@@ -128,40 +128,46 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Angular",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Ready to start developing apps with Angular</>
         ),
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
         title: "Next.js",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Actually learning how to develop apps with Next.js.</>
         ),
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
+      },
+      {
+        title: "Figma",
+        description: (
+          <>Able to prototype in Figma.</>
+        ),
+        images: [],
+      },
+      {
+        title: "Laravel",
+        description: (
+          <>Learned how to make a project with Laravel</>
+        ),
+        images: [],
+      },
+      {
+        title: "Vue.js",
+        description: (
+          <>Ready to use Vue.js as backend</>
+        ),
+        images: []
+      },
+      {
+        title: "Tailwind CSS and SCSS",
+        description: (
+          <>Use of various types of CSS to design an app</>
+        ),
+        images: [],
       },
     ],
   },
