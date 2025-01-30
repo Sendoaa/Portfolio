@@ -77,7 +77,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        I'm Sendoa, a Full Stack Developer based in Madrid with a passion for
+        I'm Sendoa, a Full Stack Developer based in Bilbao with a passion for
         development and cybersecurity. I enjoy creating intuitive user
         experiences and working on personal projects in my spare time.
       </>
