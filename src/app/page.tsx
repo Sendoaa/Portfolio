@@ -65,7 +65,9 @@ export default function Home() {
         <Column maxWidth="s">
           <RevealFx translateY="4" fillWidth horizontal="start" paddingBottom="m">
             <Heading wrap="balance" variant="display-strong-l">
-              {home.headline}
+                {home.headline}
+                <br />
+                {home.subheadline}
             </Heading>
           </RevealFx>
           <RevealFx translateY="8" delay={0.2} fillWidth horizontal="start" paddingBottom="m">
@@ -96,22 +98,6 @@ export default function Home() {
           </RevealFx>
         </Column>
       </Column>
-      <RevealFx translateY="16" delay={0.6}>
-        <Projects range={[1, 1]} />
-      </RevealFx>
-      {routes["/blog"] && (
-        <Flex fillWidth gap="24" mobileDirection="column">
-          <Flex flex={1} paddingLeft="l">
-            <Heading as="h2" variant="display-strong-xs" wrap="balance">
-              Latest from the blog
-            </Heading>
-          </Flex>
-          <Flex flex={3} paddingX="20">
-            <Posts range={[1, 2]} columns="2" />
-          </Flex>
-        </Flex>
-      )}
-      <Projects range={[2]} />
     </Column>
   );
 }
