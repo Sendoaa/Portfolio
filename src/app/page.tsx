@@ -17,7 +17,7 @@ export async function generateMetadata() {
     title,
     description,
     openGraph: {
-      title,
+      title, 
       description,
       type: "website",
       url: `https://${baseURL}`,
