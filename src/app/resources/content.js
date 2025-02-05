@@ -6,14 +6,13 @@ const person = {
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Full Stack Developer",
+  role: "Desarrollador Full Stack",
   avatar: "/images/Sendoa_Avedillo.jpg",
   location: "Europe/Madrid", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["Spanish", "English"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const social = [
-  // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
     name: "GitHub",
@@ -33,24 +32,23 @@ const social = [
 ];
 
 const home = {
-  label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
+  label: "Inicio",
+  title: `Portfolio de ${person.name}`,
+  description: `Sitio web de portfolio que muestra mi trabajo como ${person.role}`,
   headline: <>Sendoa Avedillo</>,
-  subheadline: <>Full Stack Developer</>,
+  subheadline: <>{person.role}</>,
   subline: (
     <>
-      I'm Sendoa, a Full Stack Developer passionate about development and
-      cybersecurity. I craft intuitive
-      <br /> user experiences and I start to build my own projects after hours.
+      Soy Sendoa, un Desarrollador Full Stack apasionado por el desarrollo y la
+      ciberseguridad. Creo experiencias de usuario intuitivas y estoy empezando a construir mis propios proyectos.
     </>
   ),
 };
 
 const about = {
-  label: "About",
-  title: "About me",
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  label: "Sobre mí",
+  title: "Sobre mí",
+  description: `${person.name}, ${person.role} de ${person.location}`,
   tableOfContent: {
     display: true,
     subItems: false,
@@ -64,27 +62,25 @@ const about = {
   },
   intro: {
     display: true,
-    title: "Introduction",
+    title: "Introducción",
     description: (
       <>
-        I'm Sendoa, a Full Stack Developer based in Bilbao with a passion for
-        development and cybersecurity. I enjoy creating intuitive user
-        experiences and working on personal projects in my spare time.
+        Soy Sendoa, un Desarrollador Full Stack con sede en Bilbao, apasionado por el desarrollo y la ciberseguridad. 
+        Disfruto creando experiencias de usuario intuitivas y trabajando en proyectos personales en mi tiempo libre.
       </>
     ),
   },
   work: {
-    display: true, // set to false to hide this section
-    title: "Work Experience",
+    display: true,
+    title: "Experiencia Laboral",
     experiences: [
       {
         company: "Grupo SCA",
-        timeframe: "January 2025 - Present",
-        role: "Web developer",
+        timeframe: "Enero 2025 - Presente",
+        role: "Desarrollador Web",
         achievements: [
           <>
-            Developed applications using Angular, enhancing the overall
-            performance and scalability of the projects.
+            Desarrollé aplicaciones usando Angular, mejorando el rendimiento y la escalabilidad de los proyectos.
           </>,
         ],
         images: [
@@ -100,8 +96,8 @@ const about = {
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
-    title: "Studies",
+    display: true,
+    title: "Estudios",
     institutions: [
       {
         name: "CIFP Txurdinaga",
@@ -114,48 +110,48 @@ const about = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
+    display: true,
+    title: "Habilidades Técnicas",
     skills: [
       {
         title: "Angular",
         description: (
-          <>Ready to start developing apps with Angular</>
+          <>Listo para empezar a desarrollar aplicaciones con Angular</>
         ),
         images: [],
       },
       {
         title: "Next.js",
         description: (
-          <>Actually learning how to develop apps with Next.js.</>
+          <>Actualmente aprendiendo a desarrollar aplicaciones con Next.js.</>
         ),
         images: [],
       },
       {
         title: "Figma",
         description: (
-          <>Able to prototype in Figma.</>
+          <>Capaz de prototipar en Figma.</>
         ),
         images: [],
       },
       {
         title: "Laravel",
         description: (
-          <>Learned how to make a project with Laravel</>
+          <>Aprendí a hacer un proyecto con Laravel</>
         ),
         images: [],
       },
       {
         title: "Vue.js",
         description: (
-          <>Ready to use Vue.js as backend</>
+          <>Listo para usar Vue.js como backend</>
         ),
         images: []
       },
       {
-        title: "Tailwind CSS and SCSS",
+        title: "Tailwind CSS y SCSS",
         description: (
-          <>Use of various types of CSS to design an app</>
+          <>Uso de varios tipos de CSS para diseñar una aplicación</>
         ),
         images: [],
       },
@@ -164,9 +160,9 @@ const about = {
 };
 
 const work = {
-  label: "Work",
-  title: "My projects",
-  description: `Design and dev projects by ${person.name}`,
+  label: "Proyectos realizados",
+  title: "Mis proyectos",
+  description: `Proyectos realizados por ${person.name}`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
